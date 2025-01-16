@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: chat-app
-        image: kushal9897/chat-app:latest # Replace with your built Docker image name
+        image: kushal9897/chat-appv2:latest # Replace with your built Docker image name
         ports:
         - containerPort: 3000
